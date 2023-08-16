@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: poppins, sans-serif;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: maroon;
+    color: #fff;
+}
+
+h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+p{
+    text-align: justify;
+}
+
+.city{
+    text-align: center;
+    font-size: 24px;
+}
+
+.city-Container{
+    width: 70%;
+    background-color: inherit;
+    gap: 20px;
+}
+
+.name-Image-Container{
+    width: 40%;
+    height: 350px;
+}
+
+.name-Image-Container img{
+    padding: 3px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.intro-Container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.details-Container{
+    margin-top: 30px;
+    height: 320px;
+    justify-content: space-between;
+}
+
+.city-Container,.details-Container, .name-Image-Container{
+    display: flex;
+    flex-direction: column;
+}
